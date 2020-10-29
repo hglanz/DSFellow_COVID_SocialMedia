@@ -36,7 +36,7 @@ top_10.plot(kind = 'barh', y="Sales", x="Name")
 #plt.show()
 
 
-%matplotlib inline
+
 
 
 
