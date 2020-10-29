@@ -26,4 +26,16 @@ top_10 = (df.groupby('name')['ext price', 'quantity'].agg({'ext price': 'sum', '
           .sort_values(by='ext price', ascending=False))[:10].reset_index()
 top_10.rename(columns={'name': 'Name', 'ext price': 'Sales', 'quantity': 'Purchases'}, inplace=True)
 
-print(top_10)
+#print(top_10)
+
+plt.style.use('ggplot')
+
+top_10.plot(kind = 'barh', y="Sales", x="Name")
+
+# This will print the plot in another window
+#plt.show()
+
+
+
+fig, ax = plt.subplots()
+top_10.plot(kind='barh', y="Sales", x="Name", ax=ax)
