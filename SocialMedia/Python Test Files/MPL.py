@@ -1,9 +1,6 @@
 # pandas
 # https://pythonbasics.org/read-excel/#:~:text=Read%20Excel%20files%20%28extensions%3A.xlsx%2C.xls%29%20with%20Python%20Pandas.%20To,DataFrame%20structure%2C%20which%20is%20a%20tabular%20like%20structure.
 
-# even better pandas tutorial
-# https://realpython.com/pandas-plot-python/#:~:text=%20Plot%20With%20Pandas%3A%20Python%20Data%20Visualization%20for,you%20a%20general%20overview%20of%20a...%20More%20
-
 # matplotlib
 # https://pbpython.com/effective-matplotlib.html#:~:text=%20If%20you%20take%20nothing%20else%20away%20from,seaborn%20for%20the%20more%20complex%20statist...%20More%20
 
