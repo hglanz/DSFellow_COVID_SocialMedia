@@ -11,3 +11,5 @@
 #### Produce html output or pdf output from .py file
 
 
+#### January 17th, 2021
+#### Scrape individual twitter accounts for recent tweets
