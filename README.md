@@ -13,3 +13,7 @@
 
 #### January 17th, 2021
 #### Scrape individual twitter accounts for recent tweets
+
+
+#### January 18th, 2021
+#### Scrape for keywords, like hashtags, across a span of dates/times
