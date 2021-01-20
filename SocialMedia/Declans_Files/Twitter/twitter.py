@@ -60,7 +60,7 @@ maxTweets = 500
 tweets_list3 = []
 
 # Using TwitterSearchScraper to scrape data and append tweets to list
-for i,tweet in enumerate(sntwitter.TwitterSearchScraper('covid since:2020-01-01 until:2020-01-07').get_items()):
+for i,tweet in enumerate(sntwitter.TwitterSearchScraper('covid since:2020-01-01 until:2020-01-31').get_items()):
     if i>maxTweets:
         break
     tweets_list3.append([tweet.date, tweet.id, tweet.content, tweet.user.username])
