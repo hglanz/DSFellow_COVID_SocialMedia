@@ -20,5 +20,4 @@
 
 
 #### January 20th, 2021
-#### Able to now scrape Twitter for keywords suchas #covid, #covid19, etc
-#### snscrape library also has the capability to scrape Facebook and Instagram, that's next
+#### Able to now scrape Twitter for keywords suchas #covid, #covid19, etc. 'snscrape' library also has the capability to scrape Facebook and Instagram, that's next
