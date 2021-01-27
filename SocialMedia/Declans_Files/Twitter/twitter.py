@@ -54,7 +54,7 @@ tweets_df2 = pd.DataFrame(tweets_list2, columns=['Datetime', 'Tweet Id', 'Text',
 '''
 ##################################################################################################
 
-maxTweets = 1000
+maxTweets = 10000
 
 # Creating list to append tweet data to
 tweets_list3 = []
