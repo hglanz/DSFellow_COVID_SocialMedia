@@ -54,7 +54,7 @@ tweets_df2 = pd.DataFrame(tweets_list2, columns=['Datetime', 'Tweet Id', 'Text',
 '''
 ##################################################################################################
 
-maxTweets = 10000
+maxTweets = 100000
 
 # Creating list to append tweet data to
 tweets_list3 = []
@@ -69,3 +69,7 @@ tweets_df3 = pd.DataFrame(tweets_list3, columns=['Datetime', 'Tweet Id', 'Text',
 
 # Export dataframe into a CSV
 tweets_df3.to_csv('february_covid.csv', sep=',', index=False)
+
+
+##################################################################################################
+
