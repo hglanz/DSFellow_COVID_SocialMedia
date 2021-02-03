@@ -54,7 +54,7 @@ tweets_df2 = pd.DataFrame(tweets_list2, columns=['Datetime', 'Tweet Id', 'Text',
 '''
 ##################################################################################################
 
-maxTweets = 100000
+maxTweets = 1000000
 
 # Creating list to append tweet data to
 tweets_list3 = []
@@ -68,7 +68,7 @@ for i,tweet in enumerate(sntwitter.TwitterSearchScraper('covid since:2020-02-01 
 tweets_df3 = pd.DataFrame(tweets_list3, columns=['Datetime', 'Tweet Id', 'Text', 'Username'])
 
 # Export dataframe into a CSV
-tweets_df3.to_csv('february_covid.csv', sep=',', index=False)
+tweets_df3.to_csv('february_covid_million.csv', sep=',', index=False)
 
 
 ##################################################################################################
