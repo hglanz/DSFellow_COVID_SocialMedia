@@ -27,4 +27,5 @@
 #### Produced a csv file of 100,000 tweets from February 25th-28th, 2020 on keyword 'covid'
 
 #### January 30th, 2021
-#### [(1,000, 8seconds), (10,000, 86seconds), (100,000, 12minutes), (1,000,000, 30minutes)]
+#### [(1,000, 8seconds), (10,000, 86seconds), (100,000, 12minutes), (223,360, 30minutes)]
+#### 223,360 is the total english tweets with keyword 'covid' in February
