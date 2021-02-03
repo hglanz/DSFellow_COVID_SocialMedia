@@ -2,19 +2,19 @@
 import snscrape.modules.instagram as sninstagram
 import pandas as pd
 
-maxPosts = 100
+maxPosts = 10
 
 # Creating list to append facebook data to
 insta_posts_list = []
 
-# Using TwitterSearchScraper to scrape data and append tweets to list
-for i,tweet in enumerate(sntwitter.TwitterSearchScraper('covid since:2020-02-01 until:2020-02-29 lang:en').get_items()):
+# Using InstagramCommonScraper to scrape data and append instagram posts to list
+for i,post in enumerate(sninstagram.InstagramCommonScraper('covid since:2020-02-01 until:2020-02-29 lang:en').get_items()):
     if i>maxPosts:
         break
-    tweets_list3.append([tweet.date, tweet.id, tweet.content, tweet.user.username])
+    insta_posts_list.append([post.date, post.id, post.content, post.user.username])
 
-tweets_df3 = pd.DataFrame(tweets_list3, columns=['Datetime', 'Tweet Id', 'Text', 'Username'])
+insta_df = pd.DataFrame(insta_posts_list, columns=['Datetime', 'Tweet Id', 'Text', 'Username'])
 
 # Export dataframe into a CSV
-tweets_df3.to_csv('february_covid.csv', sep=',', index=False)
+insta_df.to_csv('february_covid.csv', sep=',', index=False)
 
