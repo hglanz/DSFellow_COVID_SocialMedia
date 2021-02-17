@@ -29,3 +29,9 @@
 #### January 30th, 2021
 #### [(1,000, 8seconds), (10,000, 86seconds), (100,000, 12minutes), (223,360, 30minutes)]
 #### 223,360 is the total english tweets with keyword 'covid' in February
+
+#### February 5th, 2021
+#### Data Pipeline (any dataset can be read-in at the top, then you can run all)
+
+#### February 7th, 2021
+#### Tried to obtain March 28th-30th, took over 2 hours and is too large to be uploaded to github (226MB)
