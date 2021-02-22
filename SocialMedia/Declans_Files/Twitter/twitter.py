@@ -73,4 +73,7 @@ tweets_df3.to_csv('february_covid_million.csv', sep=',', index=False)
 
 ##################################################################################################
 
-#
+#git reset --hard HEAD^
+# use this to remove the last commit
+#git reset --hard HEAD~2
+# use this to remove the last two commits
