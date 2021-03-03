@@ -55,7 +55,7 @@
 #### I'm slowly filling out the month of March. 
 #### The bulk of tweets with word 'covid' seem to be around the 2nd week of March, when the "two-week shutdown until we can go back to normal" began, lol
 
-#### March 2nd, 2021
-#### I've got 2/3rds of March data. I suspect collecting April, May, etc. will be **much** faster.
+### March 2nd, 2021
+#### I've got 2/3rds of March data. I suspect collecting April, May, etc. will be *much* faster.
 #### I just have to keep collecting ~600,000 tweets per day seems to be the temp-ban limit (will investigate this further)
 
