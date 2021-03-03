@@ -39,7 +39,7 @@ Tried to obtain March 28th-30th, took over 2 hours and is too large to be upload
 ### February 13th, 2021
 Fixed the issue with Github... 
 **git reset --hard HEAD~4**
-by using ^ this to remove the last 4 commits to github
+by using this code in *git bash* to remove the last 4 commits to github
 
 ### February 21st, 2021
 Began scraping for the month of March
@@ -48,12 +48,12 @@ Began scraping for the month of March
 It appears that the scraping tool is not functioning at full capacity, it's only scraping part way through on some days
 
 ### Februrary 25th, 2021
-The issue from Feb 22nd was resolved. Twitter seems to be temp-banning my searches with some daily limit. But each day that limit is erased and I can go back to querying
+The issue from Feb 22nd was resolved. Twitter seems to be temp-banning my searches with some daily limit. But each day that limit is erased and I can go back to querying.
 Placing a time.sleep(10) after every 1000 queries seems to allow me to scrape more each day
 
 ### February 28th, 2021
 I'm slowly filling out the month of March. 
-The bulk of tweets with word 'covid' seem to be around the 2nd week of March, when the "two-week shutdown until we can go back to normal" began, lol
+The bulk of tweets with word 'covid' seem to be around the 2nd week of March, when the "two-week shutdown until we can go back to normal" began, lol.
 
 ### March 2nd, 2021
 I've got 2/3rds of March data. I suspect collecting April, May, etc. will be *much* faster.
