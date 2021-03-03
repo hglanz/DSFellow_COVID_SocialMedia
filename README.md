@@ -1,8 +1,8 @@
 # DSFellow_COVID_SocialMedia
 
 
-#### <b>October 26th, 2020<b\>
-#### Began uploading material
+#### October 26th, 2020
+Began uploading material
 
 #### October 28-29th, 2020
 #### Trying out different visualizations using Matplotlib and pandas
