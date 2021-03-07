@@ -32,6 +32,7 @@ Produced a csv file of 100,000 tweets from February 25th-28th, 2020 on keyword '
 
 ### February 5th, 2021
 Data Pipeline (any dataset can be read-in at the top, then you can run all)
+https://colab.research.google.com/drive/1KGuQdoQ0ZtVGTuy0ASXpvhQFMAolFrDe?usp=sharing
 
 ### February 7th, 2021
 Tried to obtain March 28th-30th, took over 2 hours and is too large to be uploaded to github (226MB)
@@ -54,6 +55,10 @@ Placing a time.sleep(10) after every 1000 queries seems to allow me to scrape mo
 ### February 28th, 2021
 I'm slowly filling out the month of March. 
 The bulk of tweets with word 'covid' seem to be around the 2nd week of March, when the "two-week shutdown until we can go back to normal" began, lol.
+
+### March 1st, 2021
+Date is no longer a string and is now a datetime object. Graph for February 'covid' data looks a lot cleaner. I made a regression line for mean daily sentiment score across February. I also made a mean weekly score, but
+https://colab.research.google.com/drive/1GCYOvSut2lhp0X5iAXLjG-0vHUE8d1Dx?usp=sharing
 
 ### March 2nd, 2021
 I've got 2/3rds of March data. I suspect collecting April, May, etc. will be *much* faster.
