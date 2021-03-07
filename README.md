@@ -64,3 +64,9 @@ https://colab.research.google.com/drive/1GCYOvSut2lhp0X5iAXLjG-0vHUE8d1Dx?usp=sh
 I've got 2/3rds of March data. I suspect collecting April, May, etc. will be *much* faster.
 I just have to keep collecting ~600,000 tweets per day seems to be the temp-ban limit (will investigate this further)
 
+### March 6th, 2021
+I finally have all of March 2020 (1st to 31st). In total, I'd estimate there are ~10,000,000 tweets with the word 'covid' in them.
+
+### March 7th, 2021
+I'm now beginning to clean each file by storing the date and sentiment score of each day in March.
+I started with my February file (~233,000 Tweets) by cleaning it and running my sentiment analysis on it. It took 1.3 hours to complete and save the cleaned dataframe to a new csv file.
