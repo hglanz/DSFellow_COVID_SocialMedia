@@ -96,6 +96,7 @@ Username     | Username of the Tweeter
 TweetID      | ID associated with that individual tweet
 URL          | The URL of the tweet can be used to access it online
 Language     | World Language (english is abbreviated 'en')
+Friends Count| # of people the twitter user follows
 
 **Variables that are probably Useless**
 | Variable         | Description   |
@@ -104,7 +105,6 @@ tcooutlinks        | # creates a list of hyperlinks used in the tweet
 Quote Count        | # of times the tweet has been retweeted with a new comment
 ConversationID     | Twitter thread ID 
 User Description   | Twitter user description at the top of their profile
-Friends Count      | # of people the twitter user follows
 Favourites Count   | # of likes the user has accumulated thru all their Tweets
 Listed Count       | # of public lists the user is a member of
 Media              | Type of Media (ex: photo, gif, video)
