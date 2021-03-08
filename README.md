@@ -79,6 +79,7 @@ I just realized that I can scrape for more variables other than Tweet text, date
 * Reply Count (how many people responded to the tweet)
 
 | Tweet Variables |
+|---|
 | Variable      | Description   |
 |:-------------:|:------------- |
 Username        | asdf
