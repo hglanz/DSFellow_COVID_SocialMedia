@@ -75,11 +75,9 @@ I started with my February file (~233,000 Tweets) by cleaning it and running my 
 
 ### March 8th, 2021
 I just realized that I can scrape for more variables other than Tweet text, datetime, tweetID, and username... Here's a list of variables worth considering:
-* Datetime
-* Tweet Text
-* 
-* Reply Count (how many people responded to the tweet)
 
+
+**Great Variables to Use**
 | Variable      | Description   |
 |:-------------:|:------------- |
 **Datetime**       | Date and Time of the Tweet
@@ -89,11 +87,19 @@ I just realized that I can scrape for more variables other than Tweet text, date
 **Likes per Tweet**| # of likes per tweet
 **Verified**       | Boolean of whether or not the Tweet's user is verified
 **Follower Count** | # of followers the Tweet's user has
-*Location*           | User-entered location (not always present)
-*Username*         | Username of the Tweeter
-*TweetID*          | ID associated with that individual tweet
-*URL*              | The URL of the tweet can be used to access it online
-*Language*           | World Language (english is abbreviated 'en')
+
+**Variables that Could be Good to Use**
+| Variable      | Description   |
+|:-------------:|:------------- |
+Location           | User-entered location (not always present)
+Username           | Username of the Tweeter
+TweetID            | ID associated with that individual tweet
+URL                | The URL of the tweet can be used to access it online
+Language           | World Language (english is abbreviated 'en')
+
+**Variables that are probably Useless**
+| Variable      | Description   |
+|:-------------:|:------------- |
 tcooutlinks        | # creates a list of hyperlinks used in the tweet
 Quote Count        | # of times the tweet has been retweeted with a new comment
 ConversationID     | Twitter thread ID 
