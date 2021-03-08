@@ -1,5 +1,7 @@
 # DSFellow_COVID_SocialMedia
 
+#### readme formatting for github
+https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 
 ### October 26th, 2020
 Began uploading material
@@ -78,15 +80,26 @@ I just realized that I can scrape for more variables other than Tweet text, date
 * 
 * Reply Count (how many people responded to the tweet)
 
-| Tweet Variables |
-|---|
 | Variable      | Description   |
 |:-------------:|:------------- |
-Username        | asdf
-TweetID         | asdf
-Datetime        | asdf
-Tweet Text      | asdf
-
-
-
+**Datetime**       | Date and Time of the Tweet
+**Tweet Text**     | Content of the Tweet
+**Reply Count**    | # of people who responded to the Tweet
+**Retweet Count**  | # of retweets
+**Likes per Tweet**| # of likes per tweet
+**Verified**       | Boolean of whether or not the Tweet's user is verified
+**Follower Count** | # of followers the Tweet's user has
+*Location*           | User-entered location (not always present)
+*Username*         | Username of the Tweeter
+*TweetID*          | ID associated with that individual tweet
+*URL*              | The URL of the tweet can be used to access it online
+*Language*           | World Language (english is abbreviated 'en')
+tcooutlinks        | # creates a list of hyperlinks used in the tweet
+Quote Count        | # of times the tweet has been retweeted with a new comment
+ConversationID     | Twitter thread ID 
+User Description   | Twitter user description at the top of their profile
+Friends Count      | # of people the twitter user follows
+Favourites Count   | # of likes the user has accumulated thru all their Tweets
+Listed Count       | # of public lists the user is a member of
+Media              | Type of Media (ex: photo, gif, video)
 
