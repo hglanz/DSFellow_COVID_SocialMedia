@@ -70,3 +70,22 @@ I finally have all of March 2020 (1st to 31st). In total, I'd estimate there are
 ### March 7th, 2021
 I'm now beginning to clean each file by storing the date and sentiment score of each day in March.
 I started with my February file (~233,000 Tweets) by cleaning it and running my sentiment analysis on it. It took 1.3 hours to complete and save the cleaned dataframe to a new csv file.
+
+### March 8th, 2021
+I just realized that I can scrape for more variables other than Tweet text, datetime, tweetID, and username... Here's a list of variables worth considering:
+* Datetime
+* Tweet Text
+* 
+* Reply Count (how many people responded to the tweet)
+
+
+| Variable      | Description   |
+|:-------------:|:------------- |
+Username        | asdf
+TweetID         | asdf
+Datetime        | asdf
+Tweet Text      | asdf
+
+
+
+
