@@ -78,28 +78,28 @@ I just realized that I can scrape for more variables other than Tweet text, date
 
 
 **Great Variables to Use**
-| Variable      | Description   |
-|:-------------:|:------------- |
-**Datetime**       | Date and Time of the Tweet
-**Tweet Text**     | Content of the Tweet
-**Reply Count**    | # of people who responded to the Tweet
-**Retweet Count**  | # of retweets
-**Likes per Tweet**| # of likes per tweet
-**Verified**       | Boolean of whether or not the Tweet's user is verified
-**Follower Count** | # of followers the Tweet's user has
+| Variable     | Description   |
+|:------------:|:------------- |
+Datetime       | Date and Time of the Tweet
+Tweet Text     | Content of the Tweet
+Reply Count    | # of people who responded to the Tweet
+Retweet Count  | # of retweets
+Likes per Tweet| # of likes per tweet
+Verified       | Boolean of whether or not the Tweet's user is verified
+Follower Count | # of followers the Tweet's user has
 
 **Variables that Could be Good to Use**
-| Variable      | Description   |
-|:-------------:|:------------- |
-Location           | User-entered location (not always present)
-Username           | Username of the Tweeter
-TweetID            | ID associated with that individual tweet
-URL                | The URL of the tweet can be used to access it online
-Language           | World Language (english is abbreviated 'en')
+| Variable   | Description   |
+|:----------:|:------------- |
+Location     | User-entered location (not always present)
+Username     | Username of the Tweeter
+TweetID      | ID associated with that individual tweet
+URL          | The URL of the tweet can be used to access it online
+Language     | World Language (english is abbreviated 'en')
 
 **Variables that are probably Useless**
-| Variable      | Description   |
-|:-------------:|:------------- |
+| Variable         | Description   |
+|:----------------:|:------------- |
 tcooutlinks        | # creates a list of hyperlinks used in the tweet
 Quote Count        | # of times the tweet has been retweeted with a new comment
 ConversationID     | Twitter thread ID 
