@@ -115,7 +115,7 @@ I was using a bunch of different programs at the same time, but it took 10290 se
 It's definitely worth looking into faster sentiment analysis methods.
 
 ### March 29th, 2021
-Summary of Quarterly Goals:
+Summary of Goals for Spring Quarter:
 - Graphs
   - US map showing average sentiment on Twitter per day by state
   - Regression of daily and weekly sentiment
@@ -129,3 +129,8 @@ Summary of Quarterly Goals:
   - Other target dates are: 
     - October 1st-12th, 2020 (when President Trump got the virus)
     - December 2020, vaccines are released to the public
+
+
+### April 7th, 2021
+I was able to extract state names from the location variable and began working on constructing a map of the US showing average sentiment per day by state
+
