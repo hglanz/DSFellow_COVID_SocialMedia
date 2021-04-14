@@ -1,6 +1,6 @@
 # DSFellow_COVID_SocialMedia
 
-#### readme formatting for github
+#### Note to self: readme formatting for github:
 https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 
 ### October 26th, 2020
@@ -113,3 +113,19 @@ Media              | Type of Media (ex: photo, gif, video)
 ### March 8th, 2021
 I was using a bunch of different programs at the same time, but it took 10290 seconds (2.86 hours to run the sentiment_scores() function on the March01_07_2020 file which contains 387903 tweets.
 It's definitely worth looking into faster sentiment analysis methods.
+
+### March 29th, 2021
+Summary of Quarterly Goals:
+- Graphs
+  - US map showing average sentiment on Twitter per day by state
+  - Regression of daily and weekly sentiment
+- Prediction
+  - Covid case rates by state by using sentiment as the key predictor
+    - Can a state's reaction to the coronavirus predict its number of cases?
+- Summary of Existing Data
+  - Currently have all tweets in February & March that contain the word 'covid'
+    - This is about ~10,000,000 tweets
+    - Variables collected: 'Datetime', 'Tweet_Text', 'ReplyCount', 'RetweetCount', '#_of_likes', 'verified', '#_of_followers', 'location', 'Sentiment_score'
+  - Other target dates are: 
+    - October 1st-12th, 2020 (when President Trump got the virus)
+    - December 2020, vaccines are released to the public
