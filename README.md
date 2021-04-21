@@ -147,3 +147,5 @@ Next is:
 - Gather sentiment scores for the rest of the data I have
 - Graph all the data I have
 - Start building a model to predict either COVID cases or deaths based on a state's sentiment scores.
+
+
