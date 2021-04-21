@@ -149,4 +149,4 @@ Next is:
 - Graph all the data I have
 - Start building a model to predict either COVID cases or deaths based on a state's sentiment scores.
 
-
+![February Daily Regression Graph](https://github.com/hglanz/DSFellow_COVID_SocialMedia/blob/main/SocialMedia/Declans_Files/Twitter/feb%20sentiment%20regression.png?raw=true)
