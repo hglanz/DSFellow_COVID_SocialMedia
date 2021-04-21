@@ -134,3 +134,16 @@ Summary of Goals for Spring Quarter:
 ### April 7th, 2021
 I was able to extract state names from the location variable and began working on constructing a map of the US showing average sentiment per day by state
 
+### April 13th, 2021
+I averaged sentiment score across each day by state. This will be the basis for the coloring of the map.
+
+### April 17th, 2021
+I found which mapping tool in Python I want to use: choropleth using the geopandas library.
+I found this github content (https://raw.githubusercontent.com/python-visualization/folium/master/examples/data) that contains the geoJSON file for the US states
+
+### April 20th, 2021
+I completed a working map that shows the average sentiment scores by state. So far, it covers March 1st to 7th 2020 and you can interactively move between dates.
+Next is:
+- Gather sentiment scores for the rest of the data I have
+- Graph all the data I have
+- Start building a model to predict either COVID cases or deaths based on a state's sentiment scores.
