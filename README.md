@@ -145,6 +145,7 @@ I found this github content (https://raw.githubusercontent.com/python-visualizat
 I completed a working map that shows the average sentiment scores by state. So far, it covers March 1st to 7th 2020 and you can interactively move between dates.
 Next is:
 - Gather sentiment scores for the rest of the data I have
+  - Write script that updates the datasets in Sublime, rather than google collab
 - Graph all the data I have
 - Start building a model to predict either COVID cases or deaths based on a state's sentiment scores.
 
