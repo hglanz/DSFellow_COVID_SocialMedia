@@ -155,3 +155,6 @@ Uploaded images of regression graph and choropleth. Note: the actual choropleth 
 ![February Daily Regression Graph](https://github.com/hglanz/DSFellow_COVID_SocialMedia/blob/main/SocialMedia/Declans_Files/Twitter/feb%20sentiment%20regression.png?raw=true)
 
 ![US Map](https://github.com/hglanz/DSFellow_COVID_SocialMedia/blob/main/SocialMedia/Declans_Files/Twitter/us%20map%20sentiment%20march%2001%20to%2007%202020.PNG?raw=true)
+
+### April 25th, 2021
+After a few days of running code on my machine, I now have sentiment scores for all of March 2020
