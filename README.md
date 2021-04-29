@@ -158,3 +158,6 @@ Uploaded images of regression graph and choropleth. Note: the actual choropleth 
 
 ### April 25th, 2021
 After a few days of running code on my machine, I now have sentiment scores for all of March 2020
+
+### April 28th, 2021
+I found a dataset that contains case and death rates. It's a little messy so I need to clean it first.
