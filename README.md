@@ -157,7 +157,18 @@ Uploaded images of regression graph and choropleth. Note: the actual choropleth 
 ![US Map](https://github.com/hglanz/DSFellow_COVID_SocialMedia/blob/main/SocialMedia/Declans_Files/Twitter/us%20map%20sentiment%20march%2001%20to%2007%202020.PNG?raw=true)
 
 ### April 25th, 2021
-After a few days of running code on my machine, I now have sentiment scores for all of March 2020
+After ~4 days of running code on my machine, I now have sentiment scores for all of February & March 2020. 
+I need to filter out the covid tweet files to capture the correct location data (ie: by state).
 
 ### April 28th, 2021
+I'm still working on a pipeline to capture location data.
 I found a dataset that contains case and death rates. It's a little messy so I need to clean it first.
+This covid dataset contains the following variables:
+- ObservationDate
+- Province/State
+- Country/Region
+- Confirmed
+- Deaths
+- Recovered
+
+
