@@ -164,7 +164,7 @@ I need to filter out the covid tweet files to capture the correct location data 
 ### April 28th, 2021
 I'm still working on a pipeline to capture location data.
 
-https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
+https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset.
 I found a dataset that contains case and death rates. It's a little messy so I need to clean it first.
 This covid dataset contains the following variables:
 - ObservationDate
