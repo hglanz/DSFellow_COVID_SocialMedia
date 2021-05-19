@@ -174,4 +174,30 @@ This covid dataset contains the following variables:
 - Deaths
 - Recovered
 
+### May 5th, 2021
+
+I took this week off because *all* of my classes decided to have midterms this week!
+
+### May 10th, 2021
+
+I now have the COVID tweets filtered by state. 
+
+The Location variable is pretty inconsistent across Tweets, so I built a .py script to automate the cleaning of the variable for February/March 2020.
+
+- Total Tweets: ~10,000,000
+- Tweets sent from US States: 2,160,195
+
+### May 13th, 2021
+
+The Kaggle Dataset I found on April 28th, 2021 needs to be cleaned. It looks like per state data didn't start being collected until March 10th, 2020. Before that, data in the United States was only collected from the major metropolis outbreak areas (ie: LA, Chicago, and even the Diamond Princess cruise ship). After March 10th, reporting became consolidated and reported by state in the US.
+
+This is okay. My initial hypothesis is that per state sentiment on a given day will *not* have a direct impact on the same day's COVID numbers (cases & deaths), but that its effect probably acts on a delay (by a week, 2 weeks? that is to be determined), if there *is* in fact an effect present.
+
+### May 16th, 2021
+
+I have the cleaned location data by state after March 10th, 2020. For some reason, this data set is missing Alabama from March 10th-12th, 2020. But other than that, all states are accounted for.
+
+After looking at Alabama on the 13th of March (the first day it has data), there are only 5 confirmed cases and no deaths. So missing that data is not bad.
+
+
 
