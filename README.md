@@ -165,7 +165,7 @@ I need to filter out the covid tweet files to capture the correct location data 
 I'm still working on a pipeline to capture location data.
 
 https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset.
-I found a dataset that contains case and death rates. It's a little messy so I need to clean it first.
+I found a dataset from Johns Hopkins University that contains case and death rates. It's a little messy so I need to clean it first.
 This covid dataset contains the following variables:
 - ObservationDate
 - Province/State
@@ -199,5 +199,24 @@ I have the cleaned location data by state after March 10th, 2020. For some reaso
 
 After looking at Alabama on the 13th of March (the first day it has data), there are only 5 confirmed cases and no deaths. So missing that data is not bad.
 
+### May 17th, 2021
 
+I'm not that familiar with Time Series regression, but I need to figure out a way to regress tweet sentiment per state on confirmed cases/deaths.
+
+Response variables:
+
+- Confirmed Cases per State
+- Confirmed Deaths per State
+
+Predictor variables:
+
+- State (ie: Location)
+- Date
+- ReplyCount
+- RetweetCount
+- # of likes
+- Verified
+- # of followers
+- Sentiment Score per tweet
+- Average Sentiment Score per day per state
 
