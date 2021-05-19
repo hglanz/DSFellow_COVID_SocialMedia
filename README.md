@@ -214,9 +214,11 @@ Predictor variables:
 - Date
 - ReplyCount
 - RetweetCount
-- # of likes
+- Number of likes
 - Verified
-- # of followers
+- Number of followers
 - Sentiment Score per tweet
 - Average Sentiment Score per day per state
+
+I'm not sure how many regression models I'll need to make (50, one for each state?). Or is there some multivariate approach I can take with multiple y's (response variables) and multiple x's (predictor variables).
 
