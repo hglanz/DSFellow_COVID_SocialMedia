@@ -222,3 +222,10 @@ Predictor variables:
 
 I'm not sure how many regression models I'll need to make (50, one for each state?). Or is there some multivariate approach I can take with multiple y's (response variables) and multiple x's (predictor variables).
 
+
+### May 18th, 2021
+
+Created a google doc to describe the **methodology** for the project so far. With the ultimate goal of polishing it to be possibly submitted to a scientific journal such as JMIR (Journal of Medical Internet Research) https://www.jmir.org/.
+
+
+
