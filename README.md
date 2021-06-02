@@ -234,7 +234,7 @@ Instead of the Kaggle data set for State COVID data I found on May 13th, I've de
 
 The variables in this data set are:
 
-**Variables that are probably Useless**
+**NYT Data Set**
 | Variable         | Description   |
 |:----------------:|:------------- |
 date        | year-month-day
@@ -245,7 +245,42 @@ deaths         | COVID-19 deaths
 
 ### May 24th, 2021
 
-The NYT data set was cleaned today to filter down to just the March 2020 data. All of the missing data for a particular state correspond with the beginning week or so when there were no recorded cases for that state. 
+The NYT data set was cleaned today to filter down to just the March 2020 data. All of the missing data for a particular state correspond with the beginning week or so when there were no recorded cases for that state -- therefore it was safe to fill in that missing data with zeroes.
+
+
+**Variables Collected for Regression from the Twitter Data**
+
+- average sentiment score
+- average number of likes
+- average verified
+- average number of followers
+- average retweet count
+
+I merged this data with the NYT data by state name and date.
+
+
+I coverted the date variable to numeric with this conversion:   t = date.year + (30 * (date.month - 1) + date.day) / 365
+
+^ This will make it easier to regress by time.
+
+I exported this final data frame as a csv that I'll be using for all my regression.
+
+
+### May 26th, 2021
+
+In an Rmd file, I carried out a regression analysis predicting cases rates.
+
+Variable subsetting tried:
+
+- best subset
+- forward/backward subset
+
+
+These revealed that of the variables I have, average sentiment score, time, and state were the most important variables. Using just those three variables in Linear Regression yielded an R<sup>2</sup> of 32.8%
+
+
+
+
 
 
 
