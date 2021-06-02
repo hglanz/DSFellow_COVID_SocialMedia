@@ -278,6 +278,12 @@ Variable subsetting tried:
 
 These revealed that of the variables I have, average sentiment score, time, and state were the most important variables. Using just those three variables in Linear Regression yielded an R<sup>2</sup> of 32.8%
 
+Based on `Sentiment_score`, we're trying to predict cases, so as people are tweeting on average more positive things about COVID-19, `cases` should decrease based on the negative coefficient of `Sentiment_score`.
+
+
+
+
+
 
 
 
