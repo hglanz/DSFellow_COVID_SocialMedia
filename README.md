@@ -228,4 +228,24 @@ I'm not sure how many regression models I'll need to make (50, one for each stat
 Created a google doc to describe the **methodology** for the project so far. With the ultimate goal of polishing it to be possibly submitted to a scientific journal such as JMIR (Journal of Medical Internet Research) https://www.jmir.org/.
 
 
+### May 23rd, 2021
+
+Instead of the Kaggle data set for State COVID data I found on May 13th, I've decided to use ![this](https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv) data set from the New York times. This NYT data has less NA's overall. The repository from which I obtained the raw data comes from ![here](https://github.com/nytimes/covid-19-data).
+
+The variables in this data set are:
+
+**Variables that are probably Useless**
+| Variable         | Description   |
+|:----------------:|:------------- |
+date        | year-month-day
+state        | 50 US states
+cases          | COVID-19 cases
+deaths         | COVID-19 deaths
+
+
+### May 24th, 2021
+
+The NYT data set was cleaned today to filter down to just the March 2020 data. All of the missing data for a particular state correspond with the beginning week or so when there were no recorded cases for that state. 
+
+
 
