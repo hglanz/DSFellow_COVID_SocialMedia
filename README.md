@@ -298,7 +298,7 @@ Last Goals for the Project:
   - Visualizations (with explanations) add the visualizations from the google collab as JPEGs (worst case) or possibly run the python code in an Rmd and we'll have to see if it remains interactive.
   - Regression models & results step-by-step
   - Conclusion (most important takeaways from the results)!
-
+- Prepare a few slides for the UCSB fellowship meeting
 
 
 
