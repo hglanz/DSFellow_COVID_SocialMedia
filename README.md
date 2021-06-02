@@ -278,10 +278,26 @@ Variable subsetting tried:
 
 These revealed that of the variables I have, average sentiment score, time, and state were the most important variables. Using just those three variables in Linear Regression yielded an R<sup>2</sup> of 32.8%
 
-Based on `Sentiment_score`, we're trying to predict cases, so as people are tweeting on average more positive things about COVID-19, `cases` should decrease based on the negative coefficient of `Sentiment_score`.
+From a regularization regression with these three variables, using a mixture of Ridge and LASSO, I found `Sentiment_score` to have a large negative coefficient.
+
+^ Based on `Sentiment_score`, we're trying to predict cases, so as people are tweeting on average more positive things about COVID-19, `cases` should decrease based on the negative coefficient of `Sentiment_score`.
+
+
+I also tried tuning a KNN model using the same three variables. Using a cross-validated hyperparamter value of k = 5, I found that the K Nearest Neighbor model is achieving an R-Squared value of 97.5%!
 
 
 
+### May 28th, 2021
+
+Last Goals for the Project:
+
+- I need to lag the sentiment score by several day increments, then redo my analysis to see if the time delay has an important effect
+- I need to get a rough draft of the methodology & results.
+  - Data Acquisition (web scraping (APIs), and just reference the NYT data set for where I got state-level cases & deaths)
+  - Data Cleaning (High-level only, short description)
+  - Visualizations (with explanations) add the visualizations from the google collab as JPEGs (worst case) or possibly run the python code in an Rmd and we'll have to see if it remains interactive.
+  - Regression models & results step-by-step
+  - Conclusion (most important takeaways from the results)!
 
 
 
