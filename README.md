@@ -301,8 +301,16 @@ Last Goals for the Project:
 - Prepare a few slides for the UCSB fellowship meeting
 
 
+### May 31st, 2021
+
+Lagged sentiment by several days and redid the analysis for predicting cases. It didn't particularly help for either regression.
+
+I also created the Spring Quarter presentation slides for the UCSB fellows meeting.
 
 
+### June 3rd, 2021
+
+Redid all the analysis but predicting for *deaths* now. There weren't any big differences in the results/conclusions. For both linear regression and KNN, the overall test estimate for R-squared was slightly lower for predicting deaths than cases.
 
 
 
