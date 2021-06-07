@@ -313,4 +313,8 @@ I also created the Spring Quarter presentation slides for the UCSB fellows meeti
 Redid all the analysis but predicting for *deaths* now. There weren't any big differences in the results/conclusions. For both linear regression and KNN, the overall test estimate for R-squared was slightly lower for predicting deaths than cases.
 
 
+### June 5th, 2021
+
+Finished the first draft of the methodology report. It can be viewed ![here](https://docs.google.com/document/d/1nLArxiK_B6Nw4HU0MLuSzy-SM-VwPq59rhCXzs3T66I/edit?usp=sharing)
+
 
