@@ -318,3 +318,6 @@ Redid all the analysis but predicting for *deaths* now. There weren't any big di
 Finished the first draft of the methodology report. It can be viewed ![here](https://docs.google.com/document/d/1nLArxiK_B6Nw4HU0MLuSzy-SM-VwPq59rhCXzs3T66I/edit?usp=sharing)
 
 
+### September 4th, 2021
+
+Uploaded an excel file called "df_state_final" which contains 1550 rows of all the averaged variables per state per day in March 2020
